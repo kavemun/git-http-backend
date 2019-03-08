@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/swo0k/git-http-backend/status "Docker Repository on Quay")](https://quay.io/repository/swo0k/git-http-backend)
+
 # Git HTTP Backend
 
 This is a Go based implementation of Grack (a Rack application), which aimed 
