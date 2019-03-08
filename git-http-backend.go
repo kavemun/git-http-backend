@@ -144,7 +144,7 @@ func serviceRpc(hr HandlerReq) {
 	var reader io.ReadCloser
 	switch r.Header.Get("Content-Encoding") {
 	case "gzip":
-		reader, err = gzip.NewReader(r.Body)
+		reader, _ = gzip.NewReader(r.Body)
 		defer reader.Close()
 	default:
 		reader = r.Body
